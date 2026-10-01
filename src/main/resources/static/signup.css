@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.logo {
+    display: block;
+    width: 120px;
+    margin: 0 auto 20px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0095f6;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submitButton {
+    background-color: #0095f6;
+    color: white;
+}
+
+#submitButton:hover {
+    background-color: #0077cc;
+}
+
+#resetButton {
+    background-color: #ddd;
+    color: black;
+}
+
+#resetButton:hover {
+    background-color: #ccc;
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.links {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.links a {
+    color: #00376b;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

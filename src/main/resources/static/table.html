@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Registered Users</title>
+
+
+    <link
+        rel="stylesheet"
+        href="table.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <h1>
+        Registered Users
+    </h1>
+
+
+    <div class="top-section">
+
+        <button
+            onclick="loadUsers()"
+            class="refresh-button">
+
+            Refresh Users
+
+        </button>
+
+
+        <a
+            href="signup.html"
+            class="signup-button">
+
+            Go to Signup
+
+        </a>
+
+    </div>
+
+
+    <div class="table-container">
+
+
+        <table>
+
+
+            <thead>
+
+            <tr>
+
+                <th>ID</th>
+
+                <th>Mobile Number</th>
+
+                <th>Email</th>
+
+                <th>Birthday</th>
+
+                <th>Name</th>
+
+                <th>Username</th>
+
+            </tr>
+
+            </thead>
+
+
+            <tbody id="userTableBody">
+
+            </tbody>
+
+
+        </table>
+
+
+    </div>
+
+
+    <p
+        id="tableMessage"
+        class="table-message">
+    </p>
+
+
+</div>
+
+
+<script src="table.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Instagram Signup</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+
+        .signup-container {
+            width: 400px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .logo {
+            display: block;
+            width: 120px;
+            margin: 0 auto 20px auto;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .description {
+            text-align: center;
+            color: #666;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #submitButton {
+            background-color: #0095f6;
+            color: white;
+        }
+
+        #resetButton {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .links {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .links a {
+            color: #00376b;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="signup-container">
+
+
+    <!-- META IMAGE -->
+
+    <img
+        src="meta.jpg"
+        alt="Meta"
+        class="logo"
+    >
+
+
+    <h2>
+        Get Started on Instagram
+    </h2>
+
+
+    <p class="description">
+        Sign up to see photos and videos from your friends.
+    </p>
+
+
+    <!-- SIGNUP FORM -->
+
+    <form id="signupForm">
+
+
+        <!-- MOBILE -->
+
+        <label for="mobileNumber">
+            Mobile number
+        </label>
+
+        <input
+            type="tel"
+            id="mobileNumber"
+            name="mobileNumber"
+            placeholder="Mobile number"
+            maxlength="10"
+            required
+        >
+
+
+        <!-- EMAIL -->
+
+        <label for="email">
+            Email
+        </label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+        >
+
+
+        <!-- BIRTHDAY -->
+
+        <label for="birthday">
+            Birthday
+        </label>
+
+        <input
+            type="datetime-local"
+            id="birthday"
+            name="birthday"
+            required
+        >
+
+
+        <!-- NAME -->
+
+        <label for="name">
+            Name
+        </label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Full Name"
+            required
+        >
+
+
+        <!-- USERNAME -->
+
+        <label for="username">
+            Username
+        </label>
+
+        <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+            required
+        >
+
+
+        <p>
+            People who use our service may have uploaded
+            your contact information to Instagram.
+        </p>
+
+
+        <p>
+            By tapping Submit, you agree to create an
+            account and to Instagram's Terms,
+            Privacy Policy and Cookies Policy.
+        </p>
+
+
+        <!-- SUBMIT -->
+
+        <button
+            type="submit"
+            id="submitButton">
+
+            Submit
+
+        </button>
+
+
+        <!-- RESET -->
+
+        <button
+            type="reset"
+            id="resetButton">
+
+            Reset
+
+        </button>
+
+
+    </form>
+
+
+    <!-- MESSAGE -->
+
+    <div
+        id="message"
+        class="message">
+    </div>
+
+
+    <!-- LINKS -->
+
+    <div class="links">
+
+        <a
+            href="https://www.meta.com/"
+            target="_blank">
+            Meta
+        </a>
+
+        <a
+            href="https://about.instagram.com/"
+            target="_blank">
+            About
+        </a>
+
+        <a
+            href="https://about.instagram.com/blog/"
+            target="_blank">
+            Blog
+        </a>
+
+        <a
+            href="https://help.instagram.com/"
+            target="_blank">
+            Help
+        </a>
+
+    </div>
+
+
+    <p style="text-align:center;">
+        &copy; 2026 Instagram from Meta
+    </p>
+
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
